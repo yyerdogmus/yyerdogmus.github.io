@@ -1,0 +1,50 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = ''
+theme = 'hugo-PaperMod'
+
+[params]
+ShowReadingTime = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = false
+
+[params.homeInfoParams]
+Title = "Y. Yılmaz Erdogmus"
+Content = "Hey, I'm an iOS Developer"
+
+[[params.socialIcons]]
+  name = "Twitter"
+  url = "https://twitter.com/yyerdogmus"
+
+[[params.socialIcons]]
+  name = "Github"
+  url = "https://github.com/yyerdogmus"
+
+[[params.socialIcons]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/yyerdogmus/"
+
+[params.profileMode]
+enabled = true
+subtitle = """Hey, I'm an iOS Developer"""
+imageUrl = "profile.png"
+imageWidth = 300
+imageHeight = 300
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "https://www.linkedin.com/in/yyerdogmus/"
+
+[[params.profileMode.buttons]]
+name = "Resume"
+url = "https://www.linkedin.com/in/yyerdogmus/"
+
+[[params.profileMode.buttons]]
+name = "Contact"
+url = "https://superpeer.com/yyerdogmus"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+
