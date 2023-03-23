@@ -8,6 +8,8 @@ ShowReadingTime = true
 ShowCodeCopyButtons = true
 ShowRssButtonInSectionTermList = true
 ShowAllPagesInArchive = false
+favicon_32 = "profile.png"
+favicon_16 = "profile.png"
 
 [params.homeInfoParams]
 Title = "Y. Yılmaz Erdogmus"
@@ -38,7 +40,7 @@ url = "https://www.linkedin.com/in/yyerdogmus/"
 
 [[params.profileMode.buttons]]
 name = "Resume"
-url = "https://www.linkedin.com/in/yyerdogmus/"
+url = "CV_Yilmaz_Erdogmus.pdf"
 
 [[params.profileMode.buttons]]
 name = "Contact"
